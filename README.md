@@ -22,7 +22,7 @@ Mack Hooijman
 Rode piste
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Extra aandacht voor de surface laag.
  
 </details>
 
@@ -36,15 +36,22 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.q-dance.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+##### 'Q-dance - Network'
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_Network_p1.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_Network_p2.jpg" width="375px" alt="omschrijving van de pagina">
+ 
+ Je kunt op deze pagina oriënteren en de keuze maken of je voor een Q-Dance lidmaatschap wilt gaan.
+ 
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+##### 'Q-dance - Event & Tickets' 
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_EventTickets_p1.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_EventTickets_p2.jpg" width="375px" alt="omschrijving van de pagina">
+ 
+ Je kunt op deze pagina het aanbod van aankomende events bekijken en daarbij ook het volledige aanbod aan events bekijken 
  
 </details>
 
