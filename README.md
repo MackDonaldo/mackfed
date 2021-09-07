@@ -48,8 +48,8 @@ https://www.q-dance.com/
 
 #### Screenshot(s) van de tweede pagina (small screen):
 ##### 'Q-dance - Event & Tickets' 
-<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_EventTickets_p1.jpg" width="375px" alt="omschrijving van de pagina">
-<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_EventTickets_p2.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_EventsTickets_p1.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_EventsTickets_p2.jpg" width="375px" alt="omschrijving van de pagina">
  
  Je kunt op deze pagina het aanbod van aankomende events bekijken en daarbij ook het volledige aanbod aan events bekijken 
  
