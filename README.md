@@ -49,9 +49,9 @@ https://www.q-dance.com/
  
 #### Screenshot(s) van de eerste pagina (small screen): 
 ##### 'Q-dance - Defqon.1 Weekend Festival'
-<img src=" https://github.com/MackDonaldo/mackfed/blob/main/images/details-1.jpg" width="375px" alt="omschrijving van de pagina">
-<img src="  https://github.com/MackDonaldo/mackfed/blob/main/images/details-2.png" width="375px" alt="omschrijving van de pagina">
- <img src="  https://github.com/MackDonaldo/mackfed/blob/main/images/details-3.png" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/details-1.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/details-2.png" width="375px" alt="omschrijving van de pagina">
+ <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/details-3.png" width="375px" alt="omschrijving van de pagina">
  
  Je kunt op deze pagina oriënteren over het desbetreffende festival en kaarten kopen, lineup bekijken, etc.
  
