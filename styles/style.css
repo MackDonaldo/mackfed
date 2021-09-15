@@ -1,5 +1,132 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
+:root {
+  --page-color: #222222;
+  --header-color: #1f1e1e;
+  --button-border-color: #f59e00;
+  --button-gradient-color: linear-gradient(270deg, #e73e11, #f59e00);
+  --button-shadow: 0 4px 20px rgb(245 158 0 / 40%);
+}
+
+body {
+  background-color: var(--page-color);
+  font-family: Roboto, sans-serif;
+}
+
+section:first-of-type {
+  display: flex;
+}
+
+header:first-of-type {
+  background-color: var(--header-color);
+  border: 10px solid red;
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  z-index: 100;
+}
+
+header:first-of-type li {
+  list-style: none;  
+  margin-bottom: 1em;
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+header:first-of-type li i {
+  color: white;
+}
+
+header:first-of-type li a{
+  text-decoration: none;
+  color: white;
+  margin-left: 1em;
+}
+
+header:nth-of-type(2) {
+  display: flex;
+  padding: 1em;
+  border: 10px solid red;
+  height: 5em;
+  width: 100%;
+  position: fixed;
+}
+
+header:nth-of-type(2) div:first-child {
+  display: flex;
+  align-items: center;
+  /* border: 10px solid rgb(17, 0, 255); */
+}
+
+header:nth-of-type(2) div:nth-child(2) {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 10px solid rgb(0, 255, 21); */
+}
+
+header:nth-of-type(2) form {
+  align-items: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+header:nth-of-type(2) form input {
+  color: white;
+  text-transform: uppercase;
+  font-size: 8pt;
+  padding: 1.3em 10em 1.3em 1.5em;
+  border-radius: 5em;
+  background-color: #3a3939;
+  border: none;
+  outline: none;
+}
+
+header:nth-of-type(2) form input::placeholder {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 8pt;
+}
+
+header:nth-of-type(2) form button {
+  position: absolute;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+}
+
+header:nth-of-type(2) a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 9pt;
+  text-decoration: none;
+  background-color: var(--header-color);
+  padding: 1em 5em 1em 5em;
+  margin-right: 1em;
+  justify-content: flex-end;
+  border: 2px solid var(--button-border-color);
+  border-radius: 10em;
+  box-shadow: var(--button-shadow);
+}
+
+header:nth-of-type(2) a:last-of-type {
+  background: var(--button-gradient-color);
+  border: none;
+}
+
+header:nth-of-type(2) a:hover {
+  filter: opacity(80%);
+  transition: .2s;
+
+}

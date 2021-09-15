@@ -10,29 +10,47 @@
 
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/c7e6eff968.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<script src="scripts/script.js"></script>
 	<main>
-		<header>
-			<a href="#"><img src="#" alt=""></a>
-			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">Events & Tickets</a></li>
-				<li><a href="">News</a></li>
-				<li><a href="">Merch</a></li>
-				<li><a href="">Network</a></li>
-				<li><a href="">Support</a></li>
-			</ul>
-		</header>
-		<header>
-			<div>
-				<form action="search"></form>
-			</div>
-			<button><a href="#">Log in</a></button>
-			<button><a href="#">Register</a></button>
-		</header>
+		<section>
+			<header>
+				<nav>
+					<a href="#"><img src="#" alt=""></a>
+					<ul>
+						<li><i class="fas fa-home"></i><a href="">Home</a></li>
+						<li><i class="fas fa-ticket-alt"></i><a href="">Events & Tickets</a></li>
+						<li><i class="fas fa-newspaper"></i><a href="">News</a></li>
+						<li><i class="fas fa-tshirt"></i><a href="">Merch</a></li>
+						<li><i class="fas fa-globe"></i><a href="">Network</a></li>
+						<li><i class="fas fa-headset"></i><a href="">Support</a></li>
+					</ul>
+				</nav>
+			</header>
+			<header>
+				<!-- het zoek-formulier -->
+				<div>
+					<form role="search" action="#">
+						<input type="search" name="search" id="search" placeholder="type to search..."
+							autocomplete="off" aria-label="zoeken">
+						<button type="submit">
+							<i class="fas fa-search"></i>
+						</button>
+					</form>
+				</div>
+				<!-- Login/register -->
+				<div>
+					<a href="#">Log In</a>
+					<a href="#">Register</a>
+				</div>
+			</header>
+		</section>
 		<section>
 			<h1>Upcoming events</h1>
 			<article>
