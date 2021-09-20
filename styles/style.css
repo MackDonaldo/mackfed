@@ -19,51 +19,115 @@ body {
 }
 
 section:first-of-type {
-  display: flex;
-}
-
-header:first-of-type {
   background-color: var(--header-color);
-  border: 10px solid red;
+  /* border: 10px solid red; */
   height: 100vh;
-  width: 250px;
-  position: fixed;
-  z-index: 100;
-}
-
-header:first-of-type li {
-  list-style: none;  
-  margin-bottom: 1em;
-  font-size: 12pt;
-  font-weight: 500;
-}
-
-header:first-of-type li i {
-  color: white;
-}
-
-header:first-of-type li a{
-  text-decoration: none;
-  color: white;
-  margin-left: 1em;
-}
-
-header:nth-of-type(2) {
+  width: 12em;
   display: flex;
-  padding: 1em;
-  border: 10px solid red;
-  height: 5em;
-  width: 100%;
+  flex-direction: column;
   position: fixed;
+  left: -250px;
+  z-index: -100;
 }
 
-header:nth-of-type(2) div:first-child {
+section:first-of-type img {
+  margin: .5em 0 .5em .5em;
+}
+
+section:first-of-type ul {
+  list-style-type: none;
+  margin: .2em;
+  padding: .5em;
+}
+
+section:first-of-type ul li {
+  margin-bottom: 1em;
+}
+
+section:first-of-type ul li a {
+  color: white;
+  font-size: 10pt;
+  text-decoration: none;
+}
+
+section:first-of-type ul li a i {
+  margin-right: 15px;
+}
+
+
+.shop-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+  position: relative;
+}
+
+.button-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  margin: 1em;
+  z-index: 10;
+}
+
+.button-container span {
+  position: relative;
+}
+
+
+section:first-of-type div a:first-of-type {
+  padding: .8em 5.6em .8em 5.6em;
+  z-index: 10;
+}
+
+.button {
+  position: relative;
+  margin-bottom: 1em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 8pt;
+  text-decoration: none;
+  background-color: var(--header-color);
+  padding: .8em 5em .8em 5em;
+  border: 2px solid var(--button-border-color);
+  border-radius: 10em;
+  box-shadow: var(--button-shadow);
+}
+
+#button-secondary {
+  background: var(--button-gradient-color);
+  border: none;
+}
+
+header {
+  position: relative;
+  z-index: -100;
+  display: flex;
+  padding: .2em;
+  border: 10px solid red;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header i {
+  color: white;
+  font-size: 18px;
+}
+
+header img {
+  width: 27px;
+}
+
+header div:first-child {
   display: flex;
   align-items: center;
   /* border: 10px solid rgb(17, 0, 255); */
 }
 
-header:nth-of-type(2) div:nth-child(2) {
+header div:nth-child(2) {
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
@@ -71,62 +135,49 @@ header:nth-of-type(2) div:nth-child(2) {
   /* border: 10px solid rgb(0, 255, 21); */
 }
 
-header:nth-of-type(2) form {
-  align-items: center;
+section:nth-of-type(2) {
   position: relative;
-  display: flex;
-  align-items: center;
+  z-index: -2;
 }
 
-header:nth-of-type(2) form input {
-  color: white;
-  text-transform: uppercase;
-  font-size: 8pt;
-  padding: 1.3em 10em 1.3em 1.5em;
-  border-radius: 5em;
-  background-color: #3a3939;
-  border: none;
-  outline: none;
-}
+/* ***************
+  Hamburger toggle
+  **************** */
 
-header:nth-of-type(2) form input::placeholder {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 8pt;
-}
+  #check {
+    display: none;
+  }
 
-header:nth-of-type(2) form button {
-  position: absolute;
-  right: 5px;
-  background: none;
-  border: none;
-  cursor: pointer;
+  label #btn, label #cancel {
+    position: absolute;
+    cursor: pointer;
 
-}
+  }
 
-header:nth-of-type(2) a {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 9pt;
-  text-decoration: none;
-  background-color: var(--header-color);
-  padding: 1em 5em 1em 5em;
-  margin-right: 1em;
-  justify-content: flex-end;
-  border: 2px solid var(--button-border-color);
-  border-radius: 10em;
-  box-shadow: var(--button-shadow);
-}
+  label #btn {
 
-header:nth-of-type(2) a:last-of-type {
-  background: var(--button-gradient-color);
-  border: none;
-}
+    left: 40px;
+    top: 25px;
+    font-size: 30px;
+    color: white;
+  }
 
-header:nth-of-type(2) a:hover {
-  filter: opacity(80%);
-  transition: .2s;
+  label #cancel {
+    z-index: 1111;
+    left: 220px;
+    top: 20px;
+    font-size: 30px;
+    color: white;
+  }
 
-}
+  #check:checked ~ section:first-of-type {
+    left: 0;
+  }
+
+  #check:checked ~ section:nth-of-type(2) {
+    left: 200px;
+  }
+
+  #check:checked ~ header {
+    left: 200px;
+  }
