@@ -11,32 +11,54 @@
   --button-border-color: #f59e00;
   --button-gradient-color: linear-gradient(270deg, #e73e11, #f59e00);
   --button-shadow: 0 4px 20px rgb(245 158 0 / 40%);
+  --font-grey-color: rgb(158, 158, 158)
 }
 
 body {
   background-color: var(--page-color);
   font-family: Roboto, sans-serif;
+
+}
+
+body h1 {
+  color: white;
+  font-size: 15pt ;
+  text-transform: uppercase;
+}
+
+body h2 {
+  color: white;
+  font-size: 13pt;
+  text-transform: uppercase;
+}
+
+body p {
+  color: var(--font-grey-color);
 }
 
 section:first-of-type {
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59,.01,.5,1);
+  position: fixed;
+  top: 0;
   background-color: var(--header-color);
-  /* border: 10px solid red; */
+  /* border: 5px solid red; */
   height: 100vh;
   width: 12em;
   display: flex;
   flex-direction: column;
-  position: fixed;
   left: -250px;
-  z-index: -100;
+
 }
 
 section:first-of-type img {
-  margin: .5em 0 .5em .5em;
+  margin: 1em 0 1em 1em;
 }
 
 section:first-of-type ul {
   list-style-type: none;
   margin: .2em;
+  margin-left: 1em;
   padding: .5em;
 }
 
@@ -45,7 +67,7 @@ section:first-of-type ul li {
 }
 
 section:first-of-type ul li a {
-  color: white;
+  color: var(--font-grey-color);
   font-size: 10pt;
   text-decoration: none;
 }
@@ -59,8 +81,10 @@ section:first-of-type ul li a i {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-left: 1em;
   margin-bottom: 1.5em;
   position: relative;
+  
 }
 
 .button-container {
@@ -103,11 +127,20 @@ section:first-of-type div a:first-of-type {
 }
 
 header {
-  position: relative;
-  z-index: -100;
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59,.01,.5,1);
+  overflow: hidden;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: -1;
   display: flex;
-  padding: .2em;
-  border: 10px solid red;
+  flex-grow: 1;
+  padding: .5em;
+  background-color: var(--header-color);
+  border-bottom: #383838 solid 1px;
+  /* border: 10px solid red; */
   align-items: center;
   justify-content: space-between;
 }
@@ -117,67 +150,84 @@ header i {
   font-size: 18px;
 }
 
+header i:first-of-type {
+  opacity: 0;
+}
+
 header img {
   width: 27px;
 }
 
-header div:first-child {
-  display: flex;
-  align-items: center;
-  /* border: 10px solid rgb(17, 0, 255); */
-}
-
-header div:nth-child(2) {
-  display: flex;
-  flex-grow: 1;
-  justify-content: flex-end;
-  align-items: center;
-  /* border: 10px solid rgb(0, 255, 21); */
-}
+/* ******
+  Content
+  ******* */
 
 section:nth-of-type(2) {
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59,.01,.5,1);
+  display: block;
   position: relative;
-  z-index: -2;
+  z-index: -100;
+  /* border: 5px solid red; */
+  margin-top: 4em;
 }
+
+section:nth-of-type(2) .card-1 {
+  background-image: url("/qlimax2021.png");
+  padding: .5em 1em 1em 1em;
+}
+
 
 /* ***************
   Hamburger toggle
   **************** */
-
-  #check {
-    display: none;
+#check {
+  display: none;
   }
 
-  label #btn, label #cancel {
-    position: absolute;
-    cursor: pointer;
-
+label #btn, label #cancel {
+  position: absolute;
+  cursor: pointer;
   }
 
-  label #btn {
-
-    left: 40px;
-    top: 25px;
-    font-size: 30px;
-    color: white;
+label #btn {
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59,.01,.5,1);
+  position: fixed;
+  left: 20px;
+  top: 10px;
+  font-size: 20px;
+  color: white;
   }
 
-  label #cancel {
-    z-index: 1111;
-    left: 220px;
-    top: 20px;
-    font-size: 30px;
-    color: white;
+/* label #cancel {
+  z-index: 1111;
+  left: 220px;
+  top: 20px;
+  font-size: 30px;
+  color: white;
+  } */
+
+#check:checked ~ section:first-of-type {
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59,.01,.5,1);
+  left: 0;
   }
 
-  #check:checked ~ section:first-of-type {
-    left: 0;
+#check:checked ~ section:nth-of-type(2) {
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59,.01,.5,1);
+  left: 200px;
   }
 
-  #check:checked ~ section:nth-of-type(2) {
-    left: 200px;
+#check:checked ~ header {
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59,.01,.5,1);
+  left: 190px;
   }
 
-  #check:checked ~ header {
-    left: 200px;
-  }
+#check:checked ~ label #btn  {
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59,.01,.5,1);
+  left: 200px;
+}
