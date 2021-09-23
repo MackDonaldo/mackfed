@@ -123,9 +123,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Ik had deze week moeite met het feit dat wanneer ik een deel van de content naar een kant wilde verplaatsen, de hele paginagrootte daarbij werd mee gescaled. Betekent dus dat de 100vh van de side-navigatie niet meer klopte als je scrollt. Bedoeling is uiteindelijk dus dat als je scrollt de header en de side-nav fixed zijn.
 
 Dit heb ik gefixt door de volgende meta code op te nemen in mijn head:
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/voortgang_2_screen2.png" width="375px" alt="omschrijving van de pagina">
+
  
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/voortgang_2_screen1.png" width="375px" alt="omschrijving van de pagina">
+
+ 
+
 
 
 ### Agenda voor meeting
