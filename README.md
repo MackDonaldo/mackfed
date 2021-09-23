@@ -145,10 +145,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- gebruik: em en px --> em
+- wellicht animatie hamburger menu: hamburger --> cross (m.b.v span's)
+- CSS nav-slide --> Javascript
 
 </details>
 
