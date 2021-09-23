@@ -53,6 +53,7 @@ section:first-of-type {
 
 section:first-of-type img {
   margin: 1em 0 1em 1em;
+  width: 40px;
 }
 
 section:first-of-type ul {
