@@ -41,17 +41,17 @@ https://www.q-dance.com/
  
 #### Screenshot(s) van de tweede pagina (small screen):
 ##### 'Q-dance - Event & Tickets' 
-<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_EventsTickets_p1.jpg" width="375px" alt="omschrijving van de pagina">
-<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/Q-Dance_EventsTickets_p2.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/eventstickets.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina van de Q-Dance website">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/eventstickets-menu.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina met uitgeklapt menu van de Q-Dance website">
  
  
  Je kunt op deze pagina het aanbod van aankomende events bekijken en daarbij ook het volledige aanbod aan events bekijken 
  
 #### Screenshot(s) van de eerste pagina (small screen): 
 ##### 'Q-dance - Defqon.1 Weekend Festival'
-<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/details-1.jpg" width="375px" alt="omschrijving van de pagina">
-<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/details-2.png" width="375px" alt="omschrijving van de pagina">
- <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/details-3.png" width="375px" alt="omschrijving van de pagina">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/detailpagina.png" width="375px" alt="Mobiele screenshot van de Qlimax festival pagina van de Q-Dance website">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/detailpagina-menu.png" width="375px" alt="Mobiele screenshot van de Qlimax festival pagina met uitgeklapt menu van de Q-Dance website">
+
  
  Je kunt op deze pagina oriënteren over het desbetreffende festival en kaarten kopen, lineup bekijken, etc.
  
