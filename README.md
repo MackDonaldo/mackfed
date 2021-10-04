@@ -84,7 +84,11 @@ https://www.q-dance.com/
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Na het missen van het voortgangsgesprek heb ik mijn medestudenten gevraagd wat er besproken is. 
+Hier kwam vooral uit dat iedereen nog wat stappen moet gaan maken.
+ 
+Hierna realiseerde ik me dat ik het beste een planning kon gaan maken om hier 
+vervolgens productief mee aan de slag te gaan.
 
 
 ### Agenda voor meeting
