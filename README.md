@@ -84,12 +84,8 @@ https://www.q-dance.com/
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Na het missen van het voortgangsgesprek heb ik mijn medestudenten gevraagd wat er besproken is. 
-Hier kwam vooral uit dat iedereen nog wat stappen moet gaan maken.
- 
-Hierna realiseerde ik me dat ik het beste een planning kon gaan maken om hier 
-vervolgens productief mee aan de slag te gaan.
-
+Ik heb een begin gemaakt aan de website op desktop versie. Ik ga dit omzetten naar een
+mobiele versie, om eventueel later de mogelijkheid voor responsiveness te vergemakkelijken.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -102,12 +98,12 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Na het missen van het voortgangsgesprek heb ik mijn medestudenten gevraagd wat er besproken is. 
+Hier kwam vooral uit dat iedereen nog wat stappen moet gaan maken.
+ 
+Hierna realiseerde ik me dat ik het beste een planning kon gaan maken om hier 
+vervolgens productief mee aan de slag te gaan.
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
 
 </details>
 
