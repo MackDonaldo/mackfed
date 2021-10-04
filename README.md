@@ -69,7 +69,7 @@ https://www.q-dance.com/
 ### de hele pagina: 
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/breakdownschets/breakdownschets-eventstickets-01.jpg" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
+### dynamisch deel (menu): 
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/breakdownschets/breakdownschets-sidemenu-02.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
