@@ -39,7 +39,7 @@ Extra aandacht voor de surface laag.
 https://www.q-dance.com/
 
  
-#### Screenshot(s) van de tweede pagina (small screen):
+#### Screenshot(s) van de eerste pagina (small screen):
 ##### 'Q-dance - Event & Tickets' 
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/eventstickets.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina van de Q-Dance website">
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/eventstickets-menu.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina met uitgeklapt menu van de Q-Dance website">
@@ -47,7 +47,7 @@ https://www.q-dance.com/
  
  Je kunt op deze pagina het aanbod van aankomende events bekijken en daarbij ook het volledige aanbod aan events bekijken 
  
-#### Screenshot(s) van de eerste pagina (small screen): 
+#### Screenshot(s) van de tweede pagina (small screen): 
 ##### 'Q-dance - Defqon.1 Weekend Festival'
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/detailpagina.png" width="375px" alt="Mobiele screenshot van de Qlimax festival pagina van de Q-Dance website">
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/detailpagina-menu.png" width="375px" alt="Mobiele screenshot van de Qlimax festival pagina met uitgeklapt menu van de Q-Dance website">
@@ -67,13 +67,10 @@ https://www.q-dance.com/
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/breakdownsketch_eventstickets.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/breakdownschets/breakdownschets-eventstickets-01.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/breakdownschets/breakdownschets-sidemenu-02.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
