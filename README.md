@@ -162,13 +162,13 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Test 1: screenread test.
 De resultaten:
- 1. Alt-teksten toevoegen om afbeeldingen de omschrijven
- 2. Er wordt steeds bij 'a'-elementen 'koppeling' opgeroepen, i.p.v de inhoud van de koppeling/button
- 3. Teksten zoals titels, locaties en data van evenementen worden overgeslagen. Bij de knop 'tickets' wordt daardoor alleen 'tickets' opgenoemd en niet van welk evenement, dat werkt nogal verwarrend.
+ Waarneming 1. Alt-teksten toevoegen om afbeeldingen de omschrijven
+ Waarneming 2. Er wordt steeds bij 'a'-elementen 'koppeling' opgeroepen, i.p.v de inhoud van de koppeling/button
+ Waarneming 3. Teksten zoals titels, locaties en data van evenementen worden overgeslagen. Bij de knop 'tickets' wordt daardoor alleen 'tickets' opgenoemd en niet van welk evenement, dat werkt nogal verwarrend.
 
- 1. Alt-teksten toevoegen
- 2. De button element verwijderen en het a-element stylen als button.
- 3. Div's een role=group geven en een aria-label=evenement-naam toevoegen, waardoor de group label word opgelezen, zodat je kunt weten welk evenement je op focust.
+ Oplossing 1. Alt-teksten toevoegen
+ Oplossing 2. De button element verwijderen en het a-element stylen als button.
+ Oplossing 3. Div's een role=group geven en een aria-label=evenement-naam toevoegen, waardoor de group label word opgelezen, zodat je kunt weten welk evenement je op focust.
 
 
 #### Titel tweede bevinding. 
