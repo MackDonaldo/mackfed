@@ -90,7 +90,7 @@ mobiele versie, om eventueel later de mogelijkheid voor responsiveness te vergem
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Ryan           | Joost              | Sjors        | Mack             |
 | ---            | ---                | ---          | ---              |
 | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
@@ -132,7 +132,7 @@ Dit heb ik gefixt door de volgende meta code op te nemen in mijn head:
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Ryan           | Joost              | Sjors        | Mack             |
 | ---            | ---                | ---          | ---              |
 | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
@@ -201,7 +201,7 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Ryan           | Joost              | Sjors        | Mack             |
 | ---            | ---                | ---          | ---              |
 | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
