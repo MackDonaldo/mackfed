@@ -132,11 +132,11 @@ Dit heb ik gefixt door de volgende meta code op te nemen in mijn head:
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Ryan           | Joost              | Sjors        | Mack             |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Ryan                                                    | Joost              | Sjors          | Mack             |
+| ---                                                     | ---                | ---            | ---              |
+| Werk laten zien                                         | Werk laten zien    | Werk laten zien| Werk laten zien  |
+| Foto's staan niet in het midden, hoe dit op te lossen?  | ---                | ---            | Van een CSS slide menu, een werkend javascript menuutje maken.|
+| ---                                                     | ---                | ---            | ---              |
 
 
 ### Verslag van meeting
