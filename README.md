@@ -215,23 +215,23 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-Ik heb ondertussen de 
+Ik heb ondertussen de content uitgewerkt en ingevuld. Daarnaast heb ik het side bar menuutje klikbaar gemaakt met behulp van JavaScript.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Ryan           | Joost              | Sjors        | Mack             |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | Focus states    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Ryan                                          | Joost              | Sjors           | Mack                                                           
+| ---                                           | ---                | ---             | ---                                                           
+| Werk laten zien                               | Werk laten zien    | Werk laten zien | Werk laten zien                                               
+| Responsiveness werkt nog niet helemaal lekker | ---                | ---             | Moet ik de website nog verder responsive maken, of is de huidige mobiele versie voldoende?|
+| ---              | ---                        | ---                | ---                                                                                                                    
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
+- Focus states
 - punt 2
 - nog een punt
 - ...
