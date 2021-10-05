@@ -18,58 +18,68 @@
 
 <body>
 	<main>
+		<!--*****************
+			*SIDE-NAVIGATION*
+			***************** -->
 		<section>
 			<nav>
 				<img src="./images/q-dance-logo.svg" alt="Q-Dance Logo">
 				<ul>
 					<li><a href="#"><i class="fas fa-home"></i>Home</a></li>
-					<li><a href="/index.html"><i class="fas fa-ticket-alt"></i>Events & Tickets</a></li>
-					<li><a href="#"><i class="fas fa-newspaper"></i>News</a></li>
+					<li><a class="active" href="/index.html"><i class="fas fa-ticket-alt"></i>Events & Tickets</a></li>
+					<li><a href="#"><i class="fas fa-newspaper"></i>News</a>
 					<li><a href="#"><i class="fas fa-tshirt"></i>Merch</a></li>
 					<li><a href="#"><i class="fas fa-globe"></i>Network</a></li>
 					<li><a href="#"><i class="fas fa-headset"></i>Support</a></li>
 				</ul>
 			</nav>
-			<div><a id="button-secondary" class="button" href="#">Shop</a></div>
+			<!--*************
+				*SHOP-BUTTON*
+				************* -->
+			<div class="button-container">
+				<a id="button-secondary" class="button" href="#">Shop</a>
+			</div>
 
-			<!-- **********************
-				 Login/Register knoppen
-				 ********************** -->
+			<!-- ************************
+				 *LOGIN/REGISTER BUTTONS*
+				 ************************ -->
 			<div class="button-container">
 				<a class="button" href="#">Log In</a>
 				<a id="button-secondary" class="button" href="#">Register</a>
 			</div>
 		</section>
+
+		<!--********
+			*HEADER* 
+			******** -->
 		<header>
-			<button><i class="fas fa-bars"></i></button>
+			<!--****************
+				*HAMBURGER ICON* 
+				****************-->
+			<button>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
 			<img src="./images/q-dance-logo.svg" alt="Q-Dance Logo">
 			<button><i class="fas fa-search"></i></button>
-
-			<!-- *************************************
-				 Formuliertje (voor evt later gebruik)
-				 ************************************* -->
-
-			<!-- <div>
-				<form role="search" action="#">
-					<input type="search" name="search" id="search" placeholder="type to search..." autocomplete="off"
-						aria-label="zoeken">
-					<button type="submit">
-						<i class="fas fa-search"></i>
-					</button>
-				</form>
-			</div> -->
-
-
 		</header>
+
+		<!--*********
+			*CONTENT* 
+			********* -->
 		<section>
 			<h1>Upcoming events</h1>
+			<!--*******
+				*CARDS* 
+				******* -->
 			<article>
 				<div class="cards">
 					<h2>Qlimax 2021 <a href="#"><i class="fas fa-share-alt"></i></a></h2>
 					<p><i class="fas fa-map-marker-alt"></i>GelreDome, Arhnem</p>
 					<p><i class="fas fa-calendar-alt"></i>20 November 2021</p>
 					<span>
-						<button class="button" id="button-secondary"><a href="/qlimax.html">More</a></button>
+						<a href="./qlimax.html" class="button" id="button-secondary">More</a>
 					</span>
 				</div>
 			</article>
@@ -79,9 +89,9 @@
 					<p><i class="fas fa-map-marker-alt"></i>AFAS Live | Amsterdam | The Netherlands</p>
 					<p><i class="fas fa-calendar-alt"></i>29 January 2022</p>
 					<span>
-						<button class="button" id="button-disabled">Sold out</button>
-						<button class="button" id="button-tertiary">Travel packages</button>
-						<button class="button" id="button-secondary">More</button>
+						<a href="#" class="button" id="button-disabled">Sold out</a>
+						<a href="#" class="button" id="button-tertiary">Travel packages</a>
+						<a href="#" class="button" id="button-secondary">More</a>
 					</span>
 				</div>
 			</article>
@@ -91,8 +101,8 @@
 					<p><i class="fas fa-map-marker-alt"></i>Ziggo Dome | Amsterdam | The Netherlands</p>
 					<p><i class="fas fa-calendar-alt"></i>2 April 2022</p>
 					<span>
-						<button class="button" id="button-tertiary">Tickets</button>
-						<button class="button" id="button-secondary">More</button>
+						<a href="#" class="button" id="button-tertiary">Tickets</a>
+						<a href="#" class="button" id="button-secondary">More</a>
 					</span>
 				</div>
 			</article>
@@ -102,9 +112,9 @@
 					<p><i class="fas fa-map-marker-alt"></i>Walibi Holland | Biddinghuizen | The Netherlands</p>
 					<p><i class="fas fa-calendar-alt"></i>23 June 2022</p>
 					<span>
-						<button class="button" id="button-tertiary">Tickets</button>
-						<button class="button" id="button-tertiary">Travel packages</button>
-						<button class="button" id="button-secondary">More</button>
+						<a href="#" class="button" id="button-tertiary">Tickets</a>
+						<a href="#" class="button" id="button-tertiary">Travel packages</a>
+						<a href="#" class="button" id="button-secondary">More</a>
 					</span>
 				</div>
 			</article>
@@ -113,19 +123,19 @@
 			<section>
 				<nav>
 					<ul>
-						<h2>Legal</h2>
+						<li>Legal</li>
 						<li><a href="#">Terms & conditions</a></li>
 						<li><a href="#">Privacy & cookie statement</a></li>
 					</ul>
 					<ul>
-						<h2>Social</h2>
+						<li>Social</li>
 						<li><a href="#">Youtube</a></li>
 						<li><a href="#">Facebook</a></li>
 						<li><a href="#">Instagram</a></li>
 						<li><a href="#">Twitter</a></li>
 					</ul>
 					<ul>
-						<h2>About</h2>
+						<li>About</li>
 						<li><a href="#">Jobs</a></li>
 						<li><a href="#">Hardstyle</a></li>
 					</ul>

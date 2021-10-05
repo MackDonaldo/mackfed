@@ -8,34 +8,39 @@
   cursor: default;
 }
 
+
+
+
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-
 :root {
   --page-color: #222222;
   --header-color: #1f1e1e;
+  --font-grey-color: rgb(158, 158, 158);
+  --qlimax-color: #d6d6cb;
   --horizontal-line-color: #383838;
   --button-border-color: #f59e00;
   --button-gradient-color: linear-gradient(270deg, #e73e11, #f59e00);
-  --button-shadow: 0 4px 20px rgb(245 158 0 / 40%);
+  --button-shadow: 0 .25em 1.25em rgb(245 158 0 / 40%);
   --button-disabled-color: #8a8a90;
   --button-disabled-background-color: hsla(0, 0%, 100%, .15);
-  --font-grey-color: rgb(158, 158, 158);
-  --qlimax-color: #d6d6cb;
 }
+
+
+
+
 
 /********************/
 /* ALGEMENE STYLING */
 /********************/
-
-
 body {
+  margin: 0;
   max-width: 100%;
   overflow-x: hidden;
   background-color: var(--page-color);
   font-family: Roboto, sans-serif;
-  margin: 0;
 }
 
 ul {
@@ -52,15 +57,22 @@ a {
   color: white;
 }
 
+
+/* Focus state bij links */
+a:focus {
+  outline: .18em solid var(--button-border-color);
+}
+
+
 body h1 {
+  font-size: 1.3em;
   color: white;
-  font-size: 15pt;
   text-transform: uppercase;
 }
 
 body h2 {
+  font-size: 1.1em;
   color: white;
-  font-size: 13pt;
   text-transform: uppercase;
 }
 
@@ -68,48 +80,98 @@ body p {
   color: var(--font-grey-color);
 }
 
+
+
+
+
 /**********/
 /* HEADER */
 /**********/
 
 header {
-  z-index: 10;
-  transition: .2s;
-  transition-timing-function: cubic-bezier(.59, .01, .5, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: .5em;
+  position: fixed;
+  z-index: 9999;
   overflow: hidden;
+  height: 2.7em;
   width: 100vw;
   left: 0;
   top: 0;
-  position: fixed;
-  display: flex;
-  flex-grow: 1;
-  padding: .5em;
   background-color: var(--header-color);
-  border-bottom: var(--horizontal-line-color) solid 1px;
-  align-items: center;
-  justify-content: space-between;
+  border-bottom: var(--horizontal-line-color) solid .06em;
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59, .01, .5, 1);
 }
 
 header button {
+  width: 1.6em;
+  height: 1em;
+  padding: 0 0 .2em 0;
+  transform: rotate(0deg);
+  cursor: pointer;
   background: none;
   border: none;
-  padding: .2em 0 .2em 0;
 }
 
 header i {
   color: white;
-  font-size: 18px;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-size: 1.2em;
 }
 
 header img {
-  width: 27px;
+  width: 1.6em;
+}
+
+header span {
+  display: block;
+  position: absolute;
+  left: 0;
+  height: .17em;
+  width: 100%;
+  border-radius: 1em;
+  opacity: 1;
+  background-color: white;
+  transition: .2s ease-in-out;
+}
+
+header span:nth-child(1) {
+  top: 0;
+  transform-origin: left center;
+}
+
+header span:nth-child(2) {
+  width: 80%;
+  top: .5em;
+  transform-origin: left center;
+}
+
+header span:nth-child(3) {
+  top: 1em;
+  transform-origin: left center;
+}
+
+/* Wanneer op de (hamburger)button word geklikt, word de onderstaande waarder uitgevoerd.  */
+header button.menuOpen span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+header button.menuOpen span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+header button.menuOpen span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 1.12em;
 }
 
 .qlimax article {
   position: fixed;
-  top: 2.8em;
+  top: 2.5em;
   z-index: 999;
   width: 100%;
   transition: .2s;
@@ -117,34 +179,32 @@ header img {
 }
 
 .qlimax article span {
-  background-color: var(--header-color);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: .5em;
+  background-color: var(--header-color);
 }
 
-
 .qlimax span h2 {
-  color: var(--qlimax-color);
-  font-size: 10pt;
   margin: .5em;
-  padding: 0 0 .7em 0;
+  padding: 0 0 .4em 0;
+  color: var(--qlimax-color);
+  font-size: .8em;
 }
 
 .qlimax span img {
-  transition: .3s;
   width: .8em;
+  transition: .3s;
 }
 
-
-
-/* ROTATIE PIJLTJE NAAST 'OVERVIEW' */
+/* Rotatie pijltje naast de 'Overview' */
 .qlimax article span.toonDropdown img {
   transition: .3s;
   transform: rotate(180deg);
 }
 
-/* ELEMENTEN IN 'OVERVIEW' DROPDOWN */
+/* Elementen in 'Overview' dropdown */
 .qlimax article span.toonDropdown~ul li:first-of-type {
   opacity: 100%;
   transition: .3s;
@@ -172,37 +232,40 @@ header img {
 
 
 .qlimax article ul {
-  line-height: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  line-height: 2em;
 }
 
 .qlimax article ul li:first-of-type {
-  border-top: 1px solid hsla(0, 0%, 100%, .08);
+  border-top: .06em solid hsla(0, 0%, 100%, .08);
 }
 
 .qlimax article ul li {
+  width: 100%;
   opacity: 0;
   transition: .3s;
-  width: 100%;
-  border-bottom: 1px solid hsla(0, 0%, 100%, .08);
+  border-bottom: .06em solid hsla(0, 0%, 100%, .08);
   background-color: var(--header-color);
 }
 
 .qlimax article ul li a {
-  font-weight: 600;
-  font-size: 10pt;
   padding-left: 1em;
+  font-weight: 600;
+  font-size: .8em;
   text-transform: uppercase;
   color: var(--qlimax-color);
 }
 
-/**************/
-/* MENU SLIDE */
-/**************/
 
+
+
+
+/*****************************************/
+/* SIDE-MENU SLIDE VAN LINKS NAAR RECHTS */
+/*****************************************/
 section:first-of-type.toonMenu {
   transform: translateX(-5%);
 }
@@ -227,27 +290,30 @@ footer.toonMenu {
   transform: translateX(50%);
 }
 
+
+
+
+
 /******************/
 /* NAVIGATIE MENU */
 /******************/
 
 section:first-of-type {
-  transition: .2s;
-  transition-timing-function: cubic-bezier(.59, .01, .5, 1);
-  position: fixed;
-  top: 0;
-  background-color: var(--header-color);
-  height: 100vh;
-  width: 12em;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 12em;
+  background-color: var(--header-color);
   transform: translatex(-110%);
-
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59, .01, .5, 1);
 }
 
 section:first-of-type img {
   margin: 1em 0 1em 1em;
-  width: 40px;
+  width: 2.5em;
 }
 
 section:first-of-type ul {
@@ -262,60 +328,72 @@ section:first-of-type ul li {
 
 section:first-of-type ul li a {
   color: var(--font-grey-color);
-  font-size: 10pt;
+  font-size: .8em;
+}
+
+/* Geeft indicatie welke pagina je bent */
+section:first-of-type ul a.active {
+  color: white;
 }
 
 section:first-of-type ul li a i {
-  margin-right: 15px;
+  margin-right: .9em;
 }
 
 
-/***************/
-/* SHOP BUTTON */
-/***************/
 
-section:first-of-type div {
+
+/***********/
+/* BUTTONS */
+/***********/
+/**********************************/
+/* SHOP, LOGIN & REGISTER BUTTONS */
+/**********************************/
+
+.button-container:first-of-type {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin-left: 1em;
-  margin-bottom: 1.5em;
-  position: relative;
-
+  justify-content: flex-start;
+  margin: .5em;
+  height: 100vh;
 }
 
-/****************************/
-/* LOGIN & REGISTER BUTTONS */
-/****************************/
-
 .button-container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 1em;
+  margin: .5em .5em 2em .5em;
+  height: 100vh;
 }
 
 section:first-of-type div a:first-of-type {
-  padding: .8em 5.6em .8em 5.6em;
+  padding: 1em;
+  text-align: center;
 }
+
+section:first-of-type a:nth-of-type(2) {
+  padding: 1em;
+  text-align: center;
+}
+
 
 /***********************/
 /* MAIN BUTTON STYLING */
 /***********************/
 .button {
   position: relative;
-  margin-bottom: 1em;
+  padding: 1.5em 3.5em 1.5em 3.5em;
+  margin: .8em 1em .8em 1em;
   color: white;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 8pt;
+  font-size: .65em;
   text-decoration: none;
   background-color: var(--header-color);
-  padding: .8em 5em .8em 5em;
-  border: 2px solid var(--button-border-color);
-  border-radius: 10em;
   box-shadow: var(--button-shadow);
+  border: .06em solid var(--button-border-color);
+  border-radius: 10em;
+
 }
 
 
@@ -327,90 +405,98 @@ section:first-of-type div a:first-of-type {
   border: none;
 }
 
+
 /***************************/
 /* TERTIARY BUTTON STYLING */
 /***************************/
 #button-tertiary {
-  color: black;
   background: white;
+  color: black;
   border: none;
   box-shadow: none;
 }
+
 
 /*******************/
 /* DISABLED BUTTON */
 /*******************/
 #button-disabled {
-  border: none;
   color: var(--button-disabled-color);
   background: var(--button-disabled-background-color);
-  margin-right: 1em;
+  border: none;
 }
+
+
+
+
 
 /***********/
 /* CONTENT */
 /***********/
 section:nth-of-type(2) {
-  transition: .2s;
-  transition-timing-function: cubic-bezier(.59, .01, .5, 1);
   display: block;
   position: relative;
-  /* border: 5px solid red; */
   margin: 4em 1em 2em 1em;
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59, .01, .5, 1);
 }
 
 .qlimax section:nth-of-type(2) {
+  height: 100%;
+  margin: 4em 0 3em 0;
+  padding: 2em 0 1em 0;
   background-color: black;
   background-image: url("/images/qlimax-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 100%;
-  background-position-y: 20em;
-  height: 100%;
-  margin: 4em 0 3em 0;
-  padding: 2em 0 1em 0;
+  background-position: 0 20em;
 }
 
 .qlimax section:nth-of-type(2) div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1em 1em 2em 1em;
+  margin: 1em 1em 2em 1em;
   text-align: center;
   background-color: rgba(52, 52, 50, .5);
   border-radius: .7em;
-  padding: 1em 1em 2em 1em;
-  margin: 1em 1em 2em 1em;
 }
 
 .qlimax section:nth-of-type(2) div p {
   color: white;
-  font-size: 10.5pt;
+  font-size: .85em;
   line-height: 1.8em;
 }
 
 
 section:nth-of-type(2) h2 {
-  font-size: 1.3em;
   display: flex;
   justify-content: space-between;
+  font-size: 1.3em;
 
 }
 
-section:nth-of-type(2) button {
-  margin-top: .2em;
+section:nth-of-type(2) .cards span {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1em;
+}
+
+section:nth-of-type(2) .cards a {
+  margin-top: 1em;
   margin-right: .3em;
-  padding: 1.5em 3.5em 1.5em 3.5em;
 }
 
 section:nth-of-type(2) .cards {
+  padding: 0.1em .5em .5em .4em;
+  margin-bottom: 1em;
+  width: 100%;
   background-image: linear-gradient(to right, rgb(34, 34, 34) 40%, rgba(39, 39, 39, 0.274)90%),
     url('/images/qlimax2021.png');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  padding: 0.1em .5em .5em .4em;
-  margin-bottom: 1em;
-
 }
 
 section:nth-of-type(2) .cards i {
@@ -423,10 +509,10 @@ section:nth-of-type(2) .cards p {
 }
 
 section:nth-of-type(2) article:nth-of-type(2) div {
-  background-image: linear-gradient(to right, rgb(34, 34, 34) 40%, rgba(39, 39, 39, 0.274)90%),
-    url('/images/xqlusiveholland.png');
   width: 100%;
   height: 100%;
+  background-image: linear-gradient(to right, rgb(34, 34, 34) 40%, rgba(39, 39, 39, 0.274)90%),
+    url('/images/xqlusiveholland.png');
   background-size: cover;
 }
 
@@ -436,32 +522,39 @@ section:nth-of-type(2) article:nth-of-type(3) div {
 }
 
 section:nth-of-type(2) article:nth-of-type(4) div {
+  width: 100%;
   background-image: linear-gradient(to right, rgb(34, 34, 34) 40%, rgba(39, 39, 39, 0.61)90%),
     url('/images/defqon1.jpeg');
-  width: 100%;
 }
 
+
+
+
+
+/**********/
+/* FOOTER */
+/**********/
 footer {
-  transition: .2s;
-  transition-timing-function: cubic-bezier(.59, .01, .5, 1);
   display: flex;
   flex-direction: row;
+  transition: .2s;
+  transition-timing-function: cubic-bezier(.59, .01, .5, 1);
 }
 
 footer section:first-of-type {
-  background: none;
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  transform: translateX(0%);
+  position: relative;
   width: 100%;
   height: 100%;
+  background: none;
+  transform: translateX(0%);
 }
 
 footer section:first-of-type nav {
-  border-top: 1px solid var(--horizontal-line-color);
   display: flex;
+  border-top: .06em solid var(--horizontal-line-color);
 }
 
 footer section:first-of-type ul {
@@ -472,13 +565,24 @@ footer section:first-of-type ul {
 }
 
 footer section:first-of-type h2 {
-  color: var(--font-grey-color);
-  font-size: 10pt;
-  margin-bottom: 1em;
-  padding: 0;
   display: flex;
   flex-direction: row;
+  margin-bottom: 1em;
+  padding: 0;
+  color: var(--font-grey-color);
+  font-size: .8em;
 }
+
+
+footer section:first-of-type li:first-of-type {
+  margin-top: 1em;
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--font-grey-color);
+}
+
+
 
 footer section:first-of-type li {
   margin-bottom: .7em;
@@ -486,5 +590,5 @@ footer section:first-of-type li {
 
 footer section:first-of-type li a {
   margin: 0;
-  font-size: 9pt;
+  font-size: .7em;
 }
