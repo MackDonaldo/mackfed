@@ -88,7 +88,6 @@ Ik heb een begin gemaakt aan de website op desktop versie. Ik ga dit omzetten na
 mobiele versie, om eventueel later de mogelijkheid voor responsiveness te vergemakkelijken.
 
 ### Agenda voor meeting
-samen met je groepje opstellen
 
 | Ryan                                            | Joost              | Sjors               | Mack   |
 | ---                                             | ---                | ---                 | ---    |
@@ -130,7 +129,6 @@ Dit heb ik gefixt door de volgende meta code op te nemen in mijn head:
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
 
 | Ryan                                                    | Joost              | Sjors          | Mack             |
 | ---                                                     | ---                | ---            | ---              |
@@ -217,7 +215,6 @@ Ik heb ondertussen de content uitgewerkt en ingevuld. Daarnaast heb ik het side 
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
 
 | Ryan                                          | Joost              | Sjors           | Mack                                                           
 | ---                                           | ---                | ---             | ---                                                           
@@ -245,8 +242,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik begon met het coderen van de website in desktop-formaat, later werd herhaald dat het het makkelijkst is om op mobiele versie te beginnen en vanuit daar te gaan kijken naar responsiveness. Dit nam helaas wat tijd in beslag, maar ik had de ruwe basiscode al gelukkig. Ik had voordat ik begon geen enkel idee hoe ik z'on sidebar menu moet maken en hoe alles gepositioneerd moest worden. Hier had ik ook best wel wat moeite mee om dit goed werkend te krijgen. In het begin werkte ik in CSS met checkboxes om de sidebar menu klikbaar te maken, maar later kwam ik erachter dat het eigenlijk veel makkelijker was om dit met JavaScript te doen. Ik werk in mijn code met transformX, maar merk dat dit niet lekker responsive werkt en alleen perfect op maat is voor de iPhone X. Dit is jammer, maar wanneer ik in de toekomst aan de website zou werken zou ik dit zeker nog aanpakken en verdere responsiveness operationeel maken.
+ 
+Verder had ik enige moeite bij de 'Overview'-dropdown op de Qlimax pagina. De list items hebben een opacity transition waarbij de alle vier een individuele delay hebben. Om dit te begrijpen en te realiseren is er flink wat tijd voorbij gegaan, maar ik ben tevreden met het resultaat.
+ 
+Al met al had ik niet verwacht dat ik de Q-Dance website zo goed kon namaken. Het is niet perfect, vooral niet betreft responsiveness, maar ik heb veel geleerd in het proces van mijn eindproduct.
+ 
 ### Screenshot(s)
 ##### 'Q-dance - Event & Tickets' 
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/eindresultaat-screens/eventtickets.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina van de Q-Dance website">
