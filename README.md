@@ -90,11 +90,11 @@ mobiele versie, om eventueel later de mogelijkheid voor responsiveness te vergem
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Ryan           | Joost              | Sjors        | Mack             |
-| ---            | ---                | ---          | ---              |
-| Hoe ver moeten we zijn om op schema te blijven?   | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Ryan                                            | Joost              | Sjors               | Mack   |
+| ---                                             | ---                | ---                 | ---    |
+| Werk laten zien.                                | Werk laten zien.   | Werk laten zien.    | ---    |
+| Hoe ver moeten we zijn om op schema te blijven? | ---                | ---                 | ---    |
+| ---                                             | ---                | ---                 | ---    |
 
 
 ### Verslag van meeting
