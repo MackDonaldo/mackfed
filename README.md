@@ -172,8 +172,12 @@ Lijst met je bevindingen die in de test naar voren kwamen:
  - Div's een role=group geven en een aria-label=evenement-naam toevoegen, waardoor de group label word opgelezen, zodat je kunt weten welk evenement je op focust.
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Test 2: TAB-test
+
+##### De resultaten:
+ - Om knoppen de selecteren moet je twee keer tabbben. 
+ <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/toegankelijkheidstest/tab-test.jpg" width="375px" alt="Testpersoon wijst naar focus state van een button element">
+ - 
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
@@ -209,7 +213,7 @@ samen met je groepje opstellen
 
 | Ryan           | Joost              | Sjors        | Mack             |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| dit bespreken  | en dit             | en ik dit    | Focus states    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
