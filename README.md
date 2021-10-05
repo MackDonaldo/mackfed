@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Mack Hooijmans
+Mack Hooijman
 
 #### Je startniveau:
 Rode piste
@@ -40,7 +40,7 @@ https://www.q-dance.com/
 
  
 #### Screenshot(s) van de eerste pagina (small screen):
-##### 'Q-dance - Event & Tickets' 
+##### 'Q-dance - Qlimax 2021' 
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/eventstickets.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina van de Q-Dance website">
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/qdance-screens/eventstickets-menu.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina met uitgeklapt menu van de Q-Dance website">
  
@@ -140,8 +140,6 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
 - Gebruik: em en px --> em
 - Misschien nog leuk: animatie hamburger menu: hamburger --> kruisje (m.b.v span's)
 - CSS nav-slide --> Javascript
@@ -225,16 +223,15 @@ samen met je groepje opstellen
 | ---                                           | ---                | ---             | ---                                                           
 | Werk laten zien                               | Werk laten zien    | Werk laten zien | Werk laten zien                                               
 | Responsiveness werkt nog niet helemaal lekker | ---                | ---             | Moet ik de website nog verder responsive maken, of is de huidige mobiele versie voldoende?|
-| ---              | ---                        | ---                | ---                                                                                                                    
+| ---                                           | ---                | ---              | ---                                                                                                                    
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- Focus states
-- punt 2
-- nog een punt
-- ...
+- Gebruik van states bij knoppen en/of links
+- Hamburger animatie
+- Zoekfunctie werkend maken
+- Easter egg toevoegen (indien genoeg tijd)
 
 </details>
 
@@ -251,9 +248,17 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
-
+##### 'Q-dance - Event & Tickets' 
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/eindresultaat-screens/eventtickets.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina van de Q-Dance website">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/eindresultaat-screens/eventtickets-menu.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina met uitgeklapt menu van de Q-Dance website">
+ 
+ 
+ Je kunt op deze pagina het aanbod van aankomende events bekijken en daarbij ook het volledige aanbod aan events bekijken 
+ 
+#### Screenshot(s) van de tweede pagina (small screen): 
+##### 'Q-dance - Qlimax 2021'
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/eindresultaat-screens/detailpagina.png" width="375px" alt="Mobiele screenshot van de Qlimax festival pagina van de Q-Dance website">
+<img src="https://github.com/MackDonaldo/mackfed/blob/main/images/eindresultaat-screens/detailpagina-menu.png" width="375px" alt="Mobiele screenshot van de Qlimax festival pagina met uitgeklapt menu van de Q-Dance website">
 </details>
 
 
