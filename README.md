@@ -253,8 +253,6 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/eindresultaat-screens/eventtickets-menu.png" width="375px" alt="Mobiele screenshot van Events en Tickets pagina met uitgeklapt menu van de Q-Dance website">
  
  
- Je kunt op deze pagina het aanbod van aankomende events bekijken en daarbij ook het volledige aanbod aan events bekijken 
- 
 #### Screenshot(s) van de tweede pagina (small screen): 
 ##### 'Q-dance - Qlimax 2021'
 <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/eindresultaat-screens/detailpagina.png" width="375px" alt="Mobiele screenshot van de Qlimax festival pagina van de Q-Dance website">
