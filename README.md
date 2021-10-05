@@ -92,7 +92,7 @@ samen met je groepje opstellen
 
 | Ryan           | Joost              | Sjors        | Mack             |
 | ---            | ---                | ---          | ---              |
-| Waar moeten we   | en dit             | en ik dit    | en dan ik dat    |
+| Hoe ver moeten we zijn om op schema te blijven?   | en dit             | en ik dit    | en dan ik dat    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
