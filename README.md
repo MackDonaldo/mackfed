@@ -142,8 +142,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- gebruik: em en px --> em
-- wellicht animatie hamburger menu: hamburger --> cross (m.b.v span's)
+- Gebruik: em en px --> em
+- Misschien nog leuk: animatie hamburger menu: hamburger --> kruisje (m.b.v span's)
 - CSS nav-slide --> Javascript
 
 </details>
@@ -160,10 +160,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Test 1: screenread test.
+De resultaten:
+ 1. Alt-teksten toevoegen om afbeeldingen de omschrijven
+ 2. Er wordt steeds bij 'a'-elementen 'koppeling' opgeroepen, i.p.v de inhoud van de koppeling/button
+ 3. Teksten zoals titels, locaties en data van evenementen worden overgeslagen. Bij de knop 'tickets' wordt daardoor alleen 'tickets' opgenoemd en niet van welk evenement, dat werkt nogal verwarrend.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ 1. Alt-teksten toevoegen
+ 2. De button element verwijderen en het a-element stylen als button.
+ 3. Div's een role=group geven en een aria-label=evenement-naam toevoegen, waardoor de group label word opgelezen, zodat je kunt weten welk evenement je op focust.
 
 
 #### Titel tweede bevinding. 
@@ -195,7 +200,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb ondertussen de 
 
 
 ### Agenda voor meeting
@@ -245,10 +250,9 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+1. Bron 1. Algehele content: https://www.q-dance.com/
+1. Bron 2. Sidebar Menu using HTML & CSS: https://www.youtube.com/watch?v=V0O4pY2xX10&t=495s
+2. Bron 3. Gradients: https://css-tricks.com/css3-gradients/
+3. Bron 4. JavaScript code voor de sidebar menu: https://codepen.io/shooft/pen/dyRVVRr
 
 </details>
