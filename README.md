@@ -169,7 +169,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 ##### De oplossingen:
  - Alt-teksten toevoegen
  - De button element verwijderen en het a-element stylen als button.
- - Div's een role=group geven en een aria-label=evenement-naam toevoegen, waardoor de group label word opgelezen, zodat je kunt weten welk evenement je op focust.
+ - Focus state toevoegen en div's een role=group geven en een aria-label=evenement-naam toevoegen, waardoor de group label word opgelezen, zodat je kunt weten welk evenement je op focust.
 
 
 #### Test 2: TAB-test
@@ -177,21 +177,31 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 ##### De resultaten:
  - Om knoppen de selecteren moet je twee keer tabbben. 
  <img src="https://github.com/MackDonaldo/mackfed/blob/main/images/toegankelijkheidstest/tab-test.jpg" width="375px" alt="Testpersoon wijst naar focus state van een button element">
- - 
+ - Bij de detailpagina (Qlimax) is de overview dropdown niet selecteer-baar.
+ - De side menu is wel selecteerbaar, maar niet 'enter-baar'.
+ - Er is geen hover- en active state bij de knoppen.
+ 
+##### De oplossingen:
+ - Het button element verwijderen en het a element stylen.
+ - Om de list items van de 'Overview'-dropdown zou je focus states moeten toevoegen.
+ - Het feit dat (sommige) list items niet 'enter-baar' zijn komt doordat deze pagina's niet bestaan. Enige list item die werkend is, is de Events & Tickets pagina.
+ - States nog even toevoegen.
+ 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
+#### Test 3: oog-test
+##### De resultaten:
+ - Bij vrijwel elke bril kwam het er op neer dat de knoppen te klein zijn.
+ - Het contrast is niet overal goed.
+
+##### De oplossingen:
+ - Knoppen groter maken
+ - Contrast verbeteren door misschien een toggle voor mensen met een oogafwijking toe te voegen.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Test 4: ballon-test
+ ##### Het resultaat en de oplossing:
+ - Om de concentratie niet te verliezen moeten acties duidelijker en simpeler worden gemaakt.
 
 </details>
 
