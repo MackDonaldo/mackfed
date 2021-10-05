@@ -273,5 +273,6 @@ Al met al had ik niet verwacht dat ik de Q-Dance website zo goed kon namaken. He
 1. Bron 2. Sidebar Menu using HTML & CSS: https://www.youtube.com/watch?v=V0O4pY2xX10&t=495s
 2. Bron 3. Gradients: https://css-tricks.com/css3-gradients/
 3. Bron 4. JavaScript code voor de sidebar menu: https://codepen.io/shooft/pen/dyRVVRr
+4. Bron 5. Hamburger menu naar kruisje: https://codepen.io/designcouch/pen/Atyop
 
 </details>
